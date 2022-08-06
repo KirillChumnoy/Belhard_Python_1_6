@@ -29,4 +29,3 @@ def fibonacci(num_count):
         for i in range(1, num_count + 1):
             fib_1, fib_2 = fib_2, fib_1 + fib_2
             yield fib_1
-
