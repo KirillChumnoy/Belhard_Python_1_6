@@ -14,3 +14,10 @@
 Нельзя пользоваться collections.Counter!
 """
 STR_VAL = 'python is the fastest-growing major programming language'
+
+
+def count_char(STR_VAL):
+    dict_char = {}
+    for i in STR_VAL:
+        dict_char[i] = STR_VAL.count(i)
+    return dict_char
